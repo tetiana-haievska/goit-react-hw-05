@@ -32,10 +32,10 @@ const MovieDetailsPage = () => {
       <h3>Additional information</h3>
       <ul>
         <li>
-          <Link to="cast"></Link>
+          <Link to={`/movies/${movieId}/cast`}>Cast</Link>
         </li>
         <li>
-          <Link to="reviews"></Link>
+          <Link to={`/movies/${movieId}/reviews`}>Reviews</Link>
         </li>
       </ul>
       <Outlet />
